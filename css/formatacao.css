@@ -32,6 +32,19 @@
   max-width: 5ch;
 }
 
+@media (min-width: 1221px) and (max-width: 1350px) {
+  .formacao .subtitulo {
+    font-size: 120px;
+    line-height: 130px;
+    max-width: 5ch;
+    word-break: break-all;
+  }
+  .expe .subtitulo {
+    font-size: 120px;
+    line-height: 130px;
+  }
+}
+
 .formacao-texto {
   font-size: 24px;
   line-height: 32px;
